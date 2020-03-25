@@ -15,6 +15,7 @@ set ruler                           " Shows ruler in bottom right corner
 set mouse=a                         " Set mouse support to 'all'
 set showcmd                         " Shows a command midway through being typed
 set noswapfile                      " do not create a .swp file when editing
+set pastetoggle=<F2>                " Toggles vim's autoindent mode when pasting using F2
 
 " Appearance
 syntax enable                       " Enable syntax highlighting
