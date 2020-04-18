@@ -24,6 +24,10 @@ Plugin 'edkolev/tmuxline.vim'
 
 Plugin 'tpope/vim-surround'
 
+Plugin 'https://gitlab.com/mmorri22/vim-header.git'
+let g:VimHeaderEmails = 'srodrig9@nd.edu'
+let g:VimHeaderNames = 'Simon Rodriguez'
+
 "Plugin 'edkolev/tmuxline.vim'
 
 " All of your Plugins must be added before the following line
