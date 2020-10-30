@@ -24,6 +24,15 @@ Plugin 'edkolev/tmuxline.vim'
 
 Plugin 'tpope/vim-surround'
 
+Plugin 'udalov/kotlin-vim'
+
+Plugin 'preservim/nerdtree'
+Plugin 'ryanoasis/vim-devicons'
+
+Plugin 'preservim/tagbar'
+
+Plugin 'vim-syntastic/syntastic'
+
 Plugin 'https://gitlab.com/mmorri22/vim-header.git'
 let g:VimHeaderEmails = 'srodrig9@nd.edu'
 let g:VimHeaderNames = 'Simon Rodriguez'
@@ -103,6 +112,14 @@ set number relativenumber           " Enable line numbering
 
 " TODO: Comment
 set pastetoggle=<F2>
+map <C-n> :NERDTreeToggle<CR>
+let g:syntastic_error_symbol = "✗"
+set encoding=utf8
+let g:webdevicons_enable = 1
+" adding the flags to NERDTree
+let g:webdevicons_enable_nerdtree = 1
+
+
 " set rnu
 set t_Co=256
 
