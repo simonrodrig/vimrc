@@ -28,6 +28,7 @@ set shiftwidth=4                " See above
 set smartindent                 " Attempt to indent when using 'enter'
 
 " UI Tweaks
+syntax enable                   " Syntax Highlighting
 set colorcolumn=81              " Display a bar to the right 
 set cursorline                  " Highlight the current line
 set rnu                         " Use relative line numbers
