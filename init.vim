@@ -31,7 +31,7 @@ set smartindent                 " Attempt to indent when using 'enter'
 syntax enable                   " Syntax Highlighting
 set colorcolumn=81              " Display a bar to the right 
 set cursorline                  " Highlight the current line
-set rnu                         " Use relative line numbers
+set rnu number                  " Use relative line numbers
 set noshowmode                  " Disables the "-- INSERT --" display
 
 " Theming
@@ -45,7 +45,8 @@ let g:lightline.enable = {
             \ 'statusline' : 1,
             \ 'tabline' : 1
             \ }
-set showtabline=2
+set showtabline=2               " Show tabline
+set laststatus=2                " Show lightline
 
 " Keybinds
 set pastetoggle=<F2>            " Use F2 to enter "paste mode"
