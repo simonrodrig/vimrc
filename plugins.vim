@@ -12,11 +12,14 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'itchyny/lightline.vim'		" Statusbar
 
+Plugin 'sheerun/vim-polyglot'           " Extended language support
+
 " Colorschemes
 Plugin 'ntk148v/vim-horizon'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'dracula/vim'
 Plugin 'hzchirs/vim-material'
+Plugin 'ghifarit53/daycula-vim'
 
 
 " All of your Plugins must be added before the following line
